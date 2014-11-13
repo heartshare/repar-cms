@@ -5,22 +5,24 @@
  * @license http://www.56hm.com/repar/license
  */
 
-namespace admin\controllers;
+namespace themes\flat;
 
+use yii\web\AssetBundle;
 
-use admin\components\Controller;
 /**
  * 
  *
  * @author Repar <47558328@qq.com>
  * @since  1.0
  */
-class DefaultController extends Controller{
+class FlatAsset extends AssetBundle {
 
-    public function actionIndex(){
-    	
+	public $sourcePath = '@themes/flat/dist';
 
-    	 return $this->renderPartial('index');
+	public $css = [
+        
+        'css/repar.min.css',
+        'css/theme-blue.css'
+	];
 
-    }
 }

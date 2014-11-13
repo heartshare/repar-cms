@@ -12,9 +12,21 @@ return [
     'controllerNamespace' => 'admin\controllers',
 
     'language' => 'zh_CN',
+
+
+    'aliases' => require __DIR__ . '/aliases.php',
     
     'modules' => [],
     'components' => [
+        
+        'view' => [
+
+            'theme' => [
+                'pathMap' => ['@admin/views' => '@themes/flat/views'],
+            ],
+
+        ],
+
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,

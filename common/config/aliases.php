@@ -1,6 +1,6 @@
 <?php
 return [
 
-    'pack' => dirname(__DIR__) . '/pack';
+    'pack' => dirname(__DIR__) . '/pack'
 
 ];

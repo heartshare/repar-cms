@@ -1,0 +1,59 @@
+/*!
+ * Repar UI - LESS  last compressed 
+ * @licence Repar UI - v0.1.0 (2014-11-04)
+ * http://56hm.com/ | Licence: MIT
+ */
+body {
+  background-color: #f9f9f9;
+}
+.header {
+  background-color: #ef5454;
+}
+.header .svg-logo {
+  background-color: #ef5454;
+}
+.header .svg-logo .image-logo {
+  background: url('../images/theme-red/logo-svg.png') ;
+}
+.header .svg-logo svg path {
+  stroke: #ffffff;
+}
+.header .snav-toggle {
+  background-color: #c02d2d;
+}
+.header .snav-toggle i {
+  background-color: #ffffff;
+}
+.header .nav-main a {
+  color: #ffffff;
+}
+.header .nav-main a[selected] {
+  background-color: #c03a3a;
+  color: #ffffff;
+}
+.header .nav-main a:hover {
+  background-color: #c03a3a;
+  color: #ffffff;
+}
+.header .user {
+  color: #FFF;
+}
+.header .user:hover {
+  background-color: #cd3737;
+}
+.nav-slide {
+  background-color: #ca3636;
+  color: #f6dcdc;
+}
+.nav-slide a {
+  color: #f6dcdc;
+}
+.nav-slide .bar {
+  color: #eca3a3;
+}
+.nav-slide .bar:hover {
+  background-color: #a61d1d;
+}
+.nav-slide ul a:hover {
+  background-color: #a61d1d;
+}

@@ -10,6 +10,8 @@ return [
     'id' => 'app-backend',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'admin\controllers',
+
+    'language' => 'zh_CN',
     
     'modules' => [],
     'components' => [

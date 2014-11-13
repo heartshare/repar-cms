@@ -32,3 +32,6 @@ phpunit.phar
 /index.php
 /index-test.php
 
+
+/helper.php
+

@@ -6,6 +6,10 @@ return [
 
     'bootstrap' => ['log'],
 
+    'defaultRoute' => 'default',
+
+    'aliases' => require __DIR__ . '/aliases.php',
+
     'components' => [
 
         'db'=> require __DIR__ . '/database.php',
